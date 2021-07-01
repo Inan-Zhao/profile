@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Benne:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+body {
+    background-color: #FFC288;
+	font-family: 'Benne', serif; 
+	color: #231E23;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+
+h1, h2, a, p {
+  color: white; font-family: 'Benne', sans-serif;
+}
+
+h1 {
+  font-size:  32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size:  20px;
+}
+
+.container {
+  width: 1000px;
+  margin: 40 px auto;
+}
+
+@media (max-width: 1200px) {
+   /*For a screen < 960px, this CSS will be read*/ 
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 800px) {
+   /*For a screen < 720px, this CSS will be read*/ 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 540px) {
+   /*For a screen < 540px, this CSS will be read*/ 
+  .container {
+    width: 500px;
+  }
+}
+
+.img-circle {
+  width: 250px;
+  border-radius: 25%;
+}
+
+.btn-lewagon{
+  color:  #FF8882;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn-lewagon:hover{
+	color: #A35709;
+}
+
+.card-round {
+   margin: 40px;
+   padding: 40px;
+   box-shadow:10px 20px 20px #FED049;
+   border-radius: 25%
+}
+
+.card-transparent {
+   margin: 60px;
+   padding: 40px;
+   box-shadow:10px 20px 20px #FED049;
+}
+
+.list-inline {
+  list-style:  none;
+  padding:  0;
+}
+
+.list-inline li {
+  display:  inline;
+}
+
+.list-inline i {
+  font-size: 32px;
+  padding: 8px;
+}
+
+.list-inline i:hover {
+  color:  #A35709;
+}
